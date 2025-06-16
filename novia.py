@@ -35,8 +35,8 @@ async def on_message(message: disnake.Message):
             try:
                 await member.remove_roles(role)
                 embed = disnake.Embed(
-                    title="Furrificacion 🐱",
-                    description=f"tu amor a los furros fue tan fuerte que tuve que quitartelos",
+                    title="Fra 🏠 do",
+                    description=f"No quiero tu fruna chi 🎳 fra 🏡 do",
                     color=disnake.Color.green()
                 )
                 await message.channel.send(embed=embed)
